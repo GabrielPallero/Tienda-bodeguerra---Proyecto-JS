@@ -1,5 +1,4 @@
 
-
 let usuario;
 let contraseña;
 
@@ -31,4 +30,24 @@ if (eleccion == 1) {
 }
 else {
     alert("NO SE SELLECIONO NINGUNA OPCIÓN"); 
+}
+function edad (){
+    if (edad >= 18){
+        return true 
+    }
+    else{
+        return false
+    }
+    
+}
+
+
+let edad_usuario = parseInt(prompt("Ingrese su edad"));
+
+
+if( mayor_de_edad(edad_usuario) ){
+    console.log("Puede ingresar")
+}
+else{
+    console.log("No puede ingresar")
 }
