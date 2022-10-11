@@ -22,3 +22,13 @@ color: white;
     justify-content: center;
     height: 500px;
 }
+.titulocamisetas {
+    margin: 0.5rem;
+    padding: 0.5rem; }
+.card {
+    margin: 0 10px;
+    max-width: 500px;
+    margin-bottom: 0.5rem; }
+.img.card-img-top{
+        max-width: 500px;
+    }
