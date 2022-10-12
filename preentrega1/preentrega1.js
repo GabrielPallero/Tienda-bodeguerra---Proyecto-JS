@@ -11,7 +11,7 @@ let contraseña = prompt("Ingrese su contraseña");
 if(usuario == "Gabriel" & contraseña==1921){
     
     alert("Bienvenido a la tienda bodeguera");
-    alert("Se debe actualizar stock");
+   
 }
 else if(usuario != "Gabriel" || contraseña != 1921){
     alert("No puede ingresar, usuario o contraseña incorrectos")
@@ -31,22 +31,24 @@ if (eleccion == 1) {
 else {
     alert("NO SE SELLECIONO NINGUNA OPCIÓN"); 
 }
-function edad (){
-    if (edad >= 18){
-        return true 
+function edad_usuario (edad){
+    if (edad >=18)  {
+        return true
     }
-    else{
+    else {
         return false
     }
     
 }
 
 
-let edad_usuario = parseInt(prompt("Ingrese su edad"));
+let registro = parseInt(prompt("Ingrese su edad"));
 
 
-if( mayor_de_edad(edad_usuario) ){
-    console.log("Puede ingresar")
+if( edad_usuario(registro)) {    
+    
+    console.log("Puede ingresar");
+    alert("Se debe actualizar stock");
 }
 else{
     console.log("No puede ingresar")
